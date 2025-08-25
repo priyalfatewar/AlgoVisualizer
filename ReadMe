@@ -1,0 +1,36 @@
+ AlgoVisualizer – JavaFX Project
+
+AlgoVisualizer is a simple desktop application built with Java, JavaFX, and Maven that visually demonstrates how sorting algorithms work step by step.  
+This project is designed for beginners in **Java + DSA** who want to showcase a practical project on GitHub.
+
+
+
+ Features
+- Visualizes **Bubble Sort** and **Insertion Sort** in action.
+- Interactive UI with **JavaFX**.
+- **Reset** option to shuffle and reload random data.
+- Beginner-friendly code structure (easy to extend with more algorithms).
+
+
+
+ Tech Stack
+- **Java 17**
+- **JavaFX 20**
+- **Maven** (for build & dependency management)
+
+
+
+ Project Structure
+AlgoVisualizer/
+│── pom.xml
+│── src/
+    └── main/
+        └── java/
+            └── com/example/algovisualizer/
+                │── Main.java
+                │── SortingVisualizer.java
+                │── algorithms/
+                │     ├── BubbleSort.java
+                │     └── InsertionSort.java
+                └── ui/
+                      └── SortingPane.java
